@@ -1,4 +1,4 @@
-class HeapSort:
+class PriorityQueue:
 
     def __init__(self, array):
 
@@ -68,7 +68,7 @@ class HeapSort:
 
 
 array = [76,23,11,5799,2,1,3,0]
-heap_array = HeapSort(array)
+heap_array = PriorityQueue(array)
 print heap_array.sort()
 
 
