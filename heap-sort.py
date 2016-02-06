@@ -11,7 +11,7 @@ class HeapSort:
         for i in range(counter, -1, -1):
             self.max_heapify(i)
 
-    return self.array
+        return self.array
 
 
     def max_heapify(self, parent_index):
@@ -32,7 +32,7 @@ class HeapSort:
             self.exchange(parent_index, largest)
             self.max_heapify(largest);
 
-    return self.array
+        return self.array
 
 
     def exchange(self, first_index, second_index):
@@ -49,7 +49,7 @@ class HeapSort:
             self.target -= 1
             self.max_heapify(0)
 
-    return self.array
+        return self.array
 
 
 array = [6,5,3,1,8,7,2,4]
