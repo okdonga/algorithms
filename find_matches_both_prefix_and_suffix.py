@@ -55,10 +55,11 @@ def find_words_that_can_be_both_prefix_and_suffix(str):
         suffix_start_idx = total_length - len_of_prefix
         if str[suffix_start_idx:] == prefix:
             prefixes_and_suffixes.append(len_of_prefix)
-            prefixes_and_suffixes.append(prefix)
+            # prefixes_and_suffixes.append(prefix)
 
     return prefixes_and_suffixes
 
+print find_words_that_can_be_both_prefix_and_suffix('aaaaaa')
 # print find_words_that_can_be_both_prefix_and_suffix('jab56jab')
 # print find_words_that_can_be_both_prefix_and_suffix('a')
 # print find_words_that_can_be_both_prefix_and_suffix('ab')
