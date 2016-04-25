@@ -11,6 +11,7 @@ This repo contains a collection of algorithm problems that I have pulled from va
 
 ### General
 + [Finding a series of characters that appear at the start as well as end of string](find_matches_both_prefix_and_suffix.py)
++ [Turn a string into a palindrome by adding characters to the end of the string](turn_string_into_palindrome.py)
 + [Determine if a string matches the given pattern](wildcard_matching.py)
 
 
